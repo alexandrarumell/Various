@@ -22,7 +22,23 @@ var sosi = ("My name is " + (people[0][2]) + " and I enjoy drinking " + (people[
 //for person in people{
 //    print("My name is " (people.allValues([0])))
 //                        }
-for person in people 
+//for person in people{
+//    for names in people[0]{
+//        print(people[0][0-2].joinWithSeparator(" and "))
+//    }
+//}
+
+
+for category in people[0]{
+    for category1 in people[1]{
+        for category2 in people[2]{
+            print("My name is " + (category));
+            print(" and I like to drink " (category2)); + print(" and I love my pet " + (category2));
+        }
+    }
+}
+
+
 
 
 
